@@ -23,8 +23,8 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: C:\Users\mohan\Desktop\cicd-pipeline\fullstack
+      working-directory: ./cicd-pipeline/fullstack/frontend
 
     - name: Run tests
       run: npm test
-      working-directory: C:\Users\mohan\Desktop\cicd-pipeline\fullstack
+      working-directory: ./cicd-pipeline/fullstack/frontend
